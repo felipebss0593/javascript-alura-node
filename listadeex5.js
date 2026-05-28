@@ -79,8 +79,13 @@
 
 //-7
 
-
-
+//function calcularTroco(valorCompra, valorPago) {
+//  let troco = valorPago - valorCompra;
+//  return troco;
+//}
+//
+//let resultadoTroco = calcularTroco(40, 50);
+//console.log("Troco: R$ " + resultadoTroco);
 
 
 //8-
@@ -93,11 +98,43 @@
 
 //9-
 
-function executarAcao(acao) {
-    acao();
-}
+//function executarAcao(acao) {
+//    acao();
+//}
+//
+//executarAcao(function() {
+//    console.log('Executando ação')
+//})
 
-executarAcao(function() {
-    console.log('Executando ação')
-})
+//10-meu programa
+
+//function fazerPergunta(pergunta,respostacorreta) {
+//    let respostaDoUsuario = respostacorreta
+//    if(respostaDoUsuario === respostacorreta) {
+//        console.log('Sua resposta está correta')
+//    }else {
+//        console.log('Sua resposta está errada')
+//    }
+//}
+//fazerPergunta('eu torço pro corinthians?','sim')
+
+
+//10-gabarito
+//function fazerPergunta(pergunta, respostaCorreta) { 
+//
+//let respostaUsuario = respostaCorreta; // simulação da resposta 
+//
+//if (respostaUsuario === respostaCorreta) { 
+//
+//console.log("Resposta correta!"); 
+//
+//} else { 
+//
+//console.log("Resposta errada!"); 
+//
+//} 
+//
+//} 
+//
+//fazerPergunta("Qual é a capital do Brasil?", "Brasília");
 
