@@ -1,0 +1,44 @@
+const numeroUm = 4
+const numeroDois = 8
+
+const subtracao = numeroUm - numeroDois
+
+console.log('subtração:', subtracao)
+
+const soma = numeroUm + numeroDois
+
+console.log('soma:', soma)
+
+const divisao = numeroUm / numeroDois
+console.log('Divisão:', divisao)
+
+const multiplicacao = numeroUm * numeroDois
+
+console.log('Multiplicação:', multiplicacao )
+
+const contaComplexa = numeroUm + numeroDois * numeroUm
+
+console.log('Conta complexa:', contaComplexa )
+
+const resto = 13 % 2
+
+console.log("o resto é:", resto)
+
+const potencia = 2 ** 3
+
+console.log('potência:', potencia)
+
+let contador = 5
+
+contador += 1
+
+console.log('incremento:', contador)
+
+contador = contador -1 
+console.log('decremento:', contador)
+
+let numeroTres = 2
+
+numeroTres = numeroTres * 2
+
+console.log("numero Tres é:", numeroTres)
